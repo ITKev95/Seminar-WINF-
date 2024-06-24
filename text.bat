@@ -1,0 +1,1 @@
+streamlit run c:/Users/Kevin/Desktop/py/text.py 
