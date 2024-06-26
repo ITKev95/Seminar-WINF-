@@ -1,1 +1,1 @@
-streamlit run c:/Users/Kevin/Desktop/py/image.py
+streamlit run c:/Users/Kevin/Desktop/py/ImageGenerator.py
