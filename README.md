@@ -6,10 +6,14 @@ Start text.bat for text generation via the GPT API
 
 Start image.bat for image generation via DALL-E
 
-Start assistant.bat to use an GPT assistant. 
+Start assistant.bat to use the GPT assistant
 
 Change following code in assistant.py to create your own assistant:
 
-name="Math Solver",
+    name="Math Solver", #type here the name of your assistant
 
-instructions="You are a personal math tutor. Write and run code to answer math questions.",
+    instructions="You are a personal math tutor. Write and run code to answer math questions.", #describe what the purpose of the assinstant is
+
+    tools=[{"type": "code_interpreter"}], #File Search or Code Interpreter  
+
+    model="gpt-4o" #version of modle like gpt-3.5-turbo ect.
